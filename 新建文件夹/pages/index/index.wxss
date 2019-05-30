@@ -1,0 +1,27 @@
+.item{
+  display: flex;
+  background: url("https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2717172509,49712114&fm=26&gp=0.jpg");
+  height: 300rpx;
+  position: relative
+}
+.doing{
+  background: #ccc;
+  color: #fff;
+  padding: 30rpx;
+  display: flex;
+  justify-content: space-between
+}
+.name{
+  position: absolute;
+  top:20%;
+  left:30%;
+  font-size: 50rpx;
+  color: #fff;
+}
+.price{
+  position: absolute;
+  right: -30rpx;
+  background: orange;
+  padding: 20rpx 50rpx 20rpx 50rpx;
+  border-radius: 50rpx;
+}

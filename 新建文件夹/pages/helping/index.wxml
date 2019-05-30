@@ -1,0 +1,26 @@
+<view class='wrap'>
+
+<view class='header'>
+</view>
+<view class='cont'>
+  <view class='tit'>
+  <view class='nav'>
+    <view>{{obj.name}}</view>
+    <view class='price'>奖金:{{obj.price}}</view>
+  </view>
+  <view class='list'>
+  <view>{{obj.address}}</view>
+  <view>如题，大家快行动起来</view>
+  </view>
+  <view class='list'>
+  <view>详细地址</view>
+  <input value="{{obj.title}}"></input>
+  
+  </view>
+  </view>
+  <view class='footer'>
+  <button class='btn' bindtap='btn'>立即帮助</button>
+  
+  </view>
+</view>
+</view>

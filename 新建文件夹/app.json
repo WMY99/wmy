@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/help/index",
+    "pages/helping/index",
+    "pages/my/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "乐助",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "去帮助",
+        "iconPath": "images/icon_seo.png",
+        "selectedIconPath": "images/icon_seo_HL.png"
+      },
+      {
+        "pagePath": "pages/help/index",
+        "text": "求帮助",
+        "iconPath": "images/icon_speed.png",
+        "selectedIconPath": "images/icon_speed_HL.png"
+      },{
+        "pagePath": "pages/my/index",
+        "text": "我的",
+        "iconPath": "images/icon_seo.png",
+        "selectedIconPath": "images/icon_seo_HL.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+<view class='wrap'>
+ 
+
+   <scroll-view scroll-y bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+    <block wx:for="{{list}}" wx:key="{{index}}">
+   <view class='list' bindtap='click' data-item='{{index}}'>
+    <view class='item'>
+
+      <view class='name'>{{item.name}}</view>
+      <view class='price'>奖金:{{item.price}}</view>
+    </view>
+    <view class='doing'>
+    <view>{{item.address}}</view>
+    <view>{{item.ju}}</view>
+    </view>
+   </view>
+  </block>
+
+  </scroll-view>
+</view>

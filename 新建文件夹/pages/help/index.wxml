@@ -1,0 +1,43 @@
+<view class='wrap'>
+  <view class='cont'>
+    <view class='biao'>
+      <view class='title'>标题</view>
+      <textarea class='text' bindinput='text' placeholder='描述您的求助，清晰地描述有助于更快的获得帮助' value='{{title}}'></textarea>
+    </view>
+    <view class='address'>
+      <image class='img' src='/images/0.jpg'></image>
+      <view>选择我的位置</view>
+    </view>
+
+    <view class='list'>
+      <view class='item'>
+        <view class='head'>奖赏积分</view>
+        <input placeholder='高赏分更容易活的帮助' value='{{price}}'></input>
+      </view>
+      <view class='item'>
+        <view class='head'>求助类型</view>
+        <view class='right'>
+          <picker bindchange="bindPickerChange" data-index='{{index}}' value="{{index}}" range="{{array}}">
+            <view class="picker">
+              当前选择：{{array[index]}}
+            </view>
+          </picker>
+          <view>></view>
+        </view>
+      </view>
+    </view>
+    <view class='lists'>
+      <view>有效期至</view>
+       <picker mode="date" value="{{time}}" start="2019-05-29" end="2020-12-31" bindchange="bindTimeChange" data-index='{{index}}'>
+    <view class="picker">
+      当前选择: {{time}}
+    </view>
+  </picker>
+    </view>
+    <view class='lists'>
+      <view>联系方式</view>
+      <input placeholder='请填写您的电话' value='{{tel}}' bindinput='tel'></input>
+    </view>
+  </view>
+  <button class='btn' bindtap='btn'>现在发布</button>
+</view>

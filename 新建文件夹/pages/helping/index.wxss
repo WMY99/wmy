@@ -1,0 +1,48 @@
+page,.wrap{
+  width:100%;
+  height: 100%;
+background: rgba(0,0,0,.05)
+}
+.header{
+  height: 50%
+}
+.wrap{
+  display: flex;
+  flex-direction: column;
+}
+.nav{
+  display: flex;
+  padding: 40rpx;
+  justify-content: space-between;
+  background: #fff;
+  align-items: center;
+  border-bottom: 1rpx solid #ccc;
+}
+.price{
+  padding: 20rpx 40rpx;
+  background: orange;
+  color: #fff;
+  border-radius: 50rpx
+}
+.list{
+ margin-top: 20rpx;
+ padding: 20rpx ;
+ background: #fff;
+ border-bottom: 1rpx solid #ccc;
+
+}
+.btn{
+  background: orange;
+  color: #fff;
+}
+.cont{
+  height: 50%;  
+  display: flex;
+  flex-direction: column;
+
+}
+.tit{
+  flex: 1;
+  width:100%;
+  
+}
